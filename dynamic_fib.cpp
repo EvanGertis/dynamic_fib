@@ -8,6 +8,7 @@ Purpose: This file contains the 'main' function. Program execution begins and en
 #include "pch.h"
 #include <iostream>
 
+//Entry point of program.
 int main()
 {
     std::cout << "Hello World!\n"; 
