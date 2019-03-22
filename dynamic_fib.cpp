@@ -6,10 +6,21 @@ Purpose: This file contains the 'main' function. Program execution begins and en
 */
 
 #include "pch.h"
-#include <iostream>
+#include "Fib.h"
 
-//Entry point of program.
+//entry point of program.
 int main()
 {
-    std::cout << "Hello World!\n"; 
+	//test code. 
+	int n, dynResult, recResult;
+
+	FB::Fib fib;
+
+	n = 8;
+
+	dynResult = fib.dynamicFib(n);
+	printf("Dynamic fibonacci %d = %d \n", n, dynResult);
+
+	recResult = fib.recFib(n);
+	printf("Recursive fibonnaci %d = %d \n", n, recResult);
 }

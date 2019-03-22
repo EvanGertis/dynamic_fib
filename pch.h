@@ -10,5 +10,7 @@
 #define PCH_H
 
 // TODO: add headers that you want to pre-compile here
-#include "Fib.h"
+#include <vector>
+#include <map>
+#include <iostream>
 #endif //PCH_H
